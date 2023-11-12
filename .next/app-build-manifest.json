@@ -12,15 +12,25 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/error.js"
+    ],
     "/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/loading.js"
     ],
-    "/error": [
+    "/articles/[slug]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/error.js"
+      "static/chunks/app/articles/[slug]/page.js"
+    ],
+    "/articles/[slug]/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/articles/[slug]/not-found.js"
     ]
   }
 }
